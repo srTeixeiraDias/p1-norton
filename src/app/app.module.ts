@@ -10,6 +10,7 @@ import { EsqueciSenhaComponent } from './esqueci-senha/esqueci-senha.component';
 import { ProdutoComponent } from './produto/produto.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
 import { BuscaComponent } from './busca/busca.component';
+import { DetalheComponent } from './detalhe/detalhe.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BuscaComponent } from './busca/busca.component';
     EsqueciSenhaComponent,
     ProdutoComponent,
     BuscaComponent,
+    DetalheComponent,
   ],
   imports: [
     BrowserModule,

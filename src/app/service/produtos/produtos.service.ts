@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { first, Observable } from 'rxjs';
 import { Produto } from 'src/app/model/produto';
+import { ProdutoDetalhe } from 'src/app/model/produto-detalhe';
 
 @Injectable({
   providedIn: 'root'
@@ -9,8 +10,14 @@ import { Produto } from 'src/app/model/produto';
 export class ProdutosService {
 
   private readonly API = "/assets/produtos.json"
+  private readonly API2 = "/assets/produto.json"
 
   constructor(private httpClient: HttpClient) { }
+
+  find(id: string): Observable<ProdutoDetalhe> {
+    console.log(this.API)
+    return this.httpClient.get<ProdutoDetalhe>(this.API2).pipe(first())
+  }
 
   list(): Observable<Produto[]> {
     console.log(this.API)
