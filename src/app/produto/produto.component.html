@@ -2,14 +2,10 @@
 <div class="alert alert-info"
  *ngIf="mensagem.length>0">{{mensagem}}</div>
 
-Codigo:<input type="number" [(ngModel)]="prod.codigo" 
-class="form-control"><br>
-Nome:<input type="text" [(ngModel)]="prod.titulo" 
-class="form-control"><br>
-Preço:<input type="text" [(ngModel)]="prod.preco"
-class="form-control"> <br>
-Link da Imagem:<input type="text" [(ngModel)]="prod.imagem"
-class="form-control"><br>
+Codigo:<input type="number" [(ngModel)]="prod.codigo" class="form-control"><br>
+Nome:<input type="text" [(ngModel)]="prod.titulo" class="form-control"><br>
+Preço:<input type="text" [(ngModel)]="prod.preco" class="form-control"> <br>
+Link da Imagem:<input type="text" [(ngModel)]="prod.imagem" class="form-control"><br>
 
 
 <button (click)="cadastrar()" class="btn btn-success">
@@ -25,7 +21,7 @@ class="form-control"><br>
              <img src="{{item.imagem}}" width='100%' height="300px"/>
           </div>
           <div class="card-body">
-            <p class="card-text" >{{item.titulo}}</b></p>
+            <p class="card-text" >{{item.titulo}}</p>
             <p class="card-text">R$ {{item.preco}} /g</p>
             <div class="d-flex justify-content-between align-items-center">
             <form action=" " method="post">
