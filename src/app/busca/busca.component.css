@@ -107,3 +107,7 @@ nav p {
 .search-bar  {
   height: 100%;
 }
+
+.custom-container {
+  max-width: 1500px;
+}

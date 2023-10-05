@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { first, Observable } from 'rxjs';
+import { first, map, Observable } from 'rxjs';
 import { Produto } from 'src/app/model/produto';
 import { ProdutoDetalhe } from 'src/app/model/produto-detalhe';
 
@@ -26,7 +26,15 @@ export class ProdutosService {
 
   listBy(filtro: string): Observable<Produto[]> {
     console.log(`${this.API}?filter=${filtro}`)
-    return this.httpClient.get<Produto[]>(`${this.API}?filter=${filtro}`).pipe(first())
+    // return this.httpClient.get<Produto[]>(`${this.API}?filter=${filtro}`).pipe(first())
+    return this.httpClient.get<Produto[]>(`${this.API}?filter=${filtro}`).pipe(
+      map((produtos: Produto[]) => {
+        return produtos.filter(produto => produto.nome.toLowerCase().includes(filtro.toLowerCase()) || produto.descricao.toLowerCase().includes(filtro.toLowerCase()));
+      }),
+      first()
+    );
+
+    
   }
 
 }

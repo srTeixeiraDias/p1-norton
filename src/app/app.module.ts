@@ -5,12 +5,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BuscaComponent } from './busca/busca.component';
 import { CestaComponent } from './cesta/cesta.component';
+import { DetalheComponent } from './detalhe/detalhe.component';
 import { EsqueciSenhaComponent } from './esqueci-senha/esqueci-senha.component';
 import { ProdutoComponent } from './produto/produto.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
-import { BuscaComponent } from './busca/busca.component';
-import { DetalheComponent } from './detalhe/detalhe.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { DetalheComponent } from './detalhe/detalhe.component';
     EsqueciSenhaComponent,
     ProdutoComponent,
     BuscaComponent,
-    DetalheComponent,
+    DetalheComponent
   ],
   imports: [
     BrowserModule,
