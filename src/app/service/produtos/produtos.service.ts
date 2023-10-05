@@ -13,8 +13,13 @@ export class ProdutosService {
   constructor(private httpClient: HttpClient) { }
 
   list(): Observable<Produto[]> {
-    console.log(this.httpClient.get<Produto[]>(this.API).pipe(first()))
+    console.log(this.API)
     return this.httpClient.get<Produto[]>(this.API).pipe(first())
+  }
+
+  listBy(filtro: string): Observable<Produto[]> {
+    console.log(`${this.API}?filter=${filtro}`)
+    return this.httpClient.get<Produto[]>(`${this.API}?filter=${filtro}`).pipe(first())
   }
 
 }
