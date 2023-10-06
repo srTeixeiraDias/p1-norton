@@ -166,3 +166,8 @@ nav a {
 .buy-button:hover {
   background-color: #009688;
 }
+
+.link-cesta {
+  color: #ECEFF1;
+  text-decoration: initial;
+}

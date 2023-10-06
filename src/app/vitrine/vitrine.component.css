@@ -108,3 +108,9 @@ nav a {
 .custom-container {
   max-width: 1500px;
 }
+
+
+.link-detalhe {
+  color: #ECEFF1;
+  text-decoration: initial;
+}
