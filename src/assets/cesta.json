@@ -1,44 +1,26 @@
 {
-  "total": 100000,
+  "total": 57.50,
   "itens": [
     {
       "quantidade": 2,
       "produto": {
-        "nome": "Puma Slipstream",
-        "descricao": "Tenis puma slipstream couro",
-        "descricaoLonga": "Tenis Puma slipstream, a revolução na area de sneaker, vem ai remodelando o mercado com sua silhueta inovadora.",
-        "preco": 549.90,
-        "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+        "id": "1",
+        "nome": "Infusão Dreaming Verveine",
+        "descricao": "Infusão de plantas com carácter herbáceo cítrico com virtudes digestivas e relaxantes.",
+        "descricaoLonga": " A combinação com as folhas jovens da cevada confere à mistura um aroma fresco e ligeiramente adocicado.A lúcia-lima tem um considerável efeito digestivo, antiespasmódico e carminativo (ajuda a reduzir os gases).",
+        "preco": 6.50,
+        "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007//27024_Dreaming_Verveine_1000x1000.jpg"
       }
     },
     {
-      "quantidade": 2,
-      "produto": {
-        "nome": "Puma Slipstream",
-        "descricao": "Tenis puma slipstream couro",
-        "descricaoLonga": "Tenis Puma slipstream, a revolução na area de sneaker, vem ai remodelando o mercado com sua silhueta inovadora.",
-        "preco": 549.90,
-        "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
-      }
-    },
-    {
-      "quantidade": 2,
-      "produto": {
-        "nome": "Puma Slipstream",
-        "descricao": "Tenis puma slipstream couro",
-        "descricaoLonga": "Tenis Puma slipstream, a revolução na area de sneaker, vem ai remodelando o mercado com sua silhueta inovadora.",
-        "preco": 549.90,
-        "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
-      }
-    },
-    {
-      "quantidade": 2,
-      "produto": {
-        "nome": "Puma Slipstream",
-        "descricao": "Tenis puma slipstream couro",
-        "descricaoLonga": "Tenis Puma slipstream, a revolução na area de sneaker, vem ai remodelando o mercado com sua silhueta inovadora.",
-        "preco": 549.90,
-        "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+      "quantidade": 5,
+      "produto":   {
+        "id": "2",
+        "nome": "Chá Branco White kiss",
+        "descricao": "Uma mistura para os amantes dos chás puros e dos sabores delicados.",
+        "descricaoLonga": " A combinação com as folhas jovens da cevada confere à mistura um aroma fresco e ligeiramente adocicado.A lúcia-lima tem um considerável efeito digestivo, antiespasmódico e carminativo (ajuda a reduzir os gases).",
+        "preco": 8.90,
+        "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007//14003_WhiteKiss_1000x1000_l.jpg"
       }
     }
   ]

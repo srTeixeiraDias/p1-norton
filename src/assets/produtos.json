@@ -1,62 +1,52 @@
 [
   {
-    "nome": "Nike Air force",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+
+    "id": "1",
+    "nome": "Infusão Dreaming Verveine",
+    "descricao": "Infusão de plantas com carácter herbáceo cítrico com virtudes digestivas e relaxantes.",
+    "preco": 6.50,
+    "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007//27024_Dreaming_Verveine_1000x1000.jpg"
   },
   {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+    "id": "2",
+    "nome": "Chá Branco White kiss",
+    "descricao": "Uma mistura para os amantes dos chás puros e dos sabores delicados.",
+    "preco": 8.90,
+    "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007//14003_WhiteKiss_1000x1000_l.jpg"
   },
   {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+    "id": "3",
+    "nome": "Chá preto Darjeeling",
+    "descricao": "A denominação do chá Darjeeling refere-se aos chás cultivados nos jardins de Darjeeling.",
+    "preco": 12.90,
+    "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007//10049_DarjeelingFirstFlush_1000X1000_l.jpg"
   },
   {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+    "id": "4",
+    "nome": "Chá Oolong (azul) Dong Ding Oolong Leaf",
+    "descricao": "Variedade de Chá Oolong das terras altas de Taiwan, das montanhas Dong Ding.",
+    "preco": 18.90,
+    "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007//TM_Dong-Ding-Oolong-Leaf-Tea-Taiwan_1000x1000.jpg"
   },
   {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+    "id": "5",
+    "nome": "Chá verde Japan Bancha ",
+    "descricao": "O seu aroma é caraterizado por ser suave e, se buscarmos um atributo para defini-lo",
+    "preco": 15.90,
+    "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007//13042_JapanBanchaSuperior_1000X1000_l.jpg"
   },
   {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+    "id": "7",
+    "nome": "Chá verde Moruno",
+    "descricao": "A cuidadosa seleção dos chás verdes Gunpowder e Chun Mee de um sabor intenso. ",
+    "preco": 9.90,
+    "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007/fotosProducto/tes/13116_Moruno_1000x1000_l.jpg"
   },
   {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
-  },
-  {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
-  },
-  {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
-  },
-  {
-    "nome": "Puma Slipstream",
-    "descricao": "Tenis puma slipstream couro",
-    "preco": 549.90,
-    "urlImagem": "https://staticg.sportskeeda.com/editor/2022/06/88884-16550475559822-1920.jpg"
+    "id": "8",
+    "nome": "Chá verde SenChá Superior",
+    "descricao": "Chá Verde intenso, para os amantes dos sabores vegetais, com um toque adstringente",
+    "preco": 7.90,
+    "urlImagem": "https://dhb3yazwboecu.cloudfront.net/1007/fotosProducto/tes/13030_SenchaSuperior_1000x1000_l.jpg"
   }
 ]
