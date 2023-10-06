@@ -7,6 +7,8 @@ import { ProdutoComponent } from './produto/produto.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
 import { BuscaComponent } from './busca/busca.component';
 import { DetalheComponent } from './detalhe/detalhe.component';
+import { LoginComponent } from './login/login.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 const routes: Routes = [
   { path: "vitrine", component: VitrineComponent },
@@ -14,7 +16,10 @@ const routes: Routes = [
   { path: "esqueci-senha", component: EsqueciSenhaComponent },
   { path: "produto", component: ProdutoComponent },
   { path: "busca", component: BuscaComponent },
-  { path: "detalhe", component: DetalheComponent }
+  { path: "detalhe", component: DetalheComponent },
+  { path: "login", component: LoginComponent},
+  { path: "cadastro", component: CadastroComponent}
+  
 ];
 
 @NgModule({

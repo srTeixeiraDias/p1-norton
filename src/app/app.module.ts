@@ -11,6 +11,8 @@ import { DetalheComponent } from './detalhe/detalhe.component';
 import { EsqueciSenhaComponent } from './esqueci-senha/esqueci-senha.component';
 import { ProdutoComponent } from './produto/produto.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
+import { LoginComponent } from './login/login.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { VitrineComponent } from './vitrine/vitrine.component';
     EsqueciSenhaComponent,
     ProdutoComponent,
     BuscaComponent,
-    DetalheComponent
+    DetalheComponent,
+    LoginComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,

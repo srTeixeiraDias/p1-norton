@@ -1,0 +1,105 @@
+.formulario{
+    width: 100%;
+    padding: 30px 30px;
+    margin: 25px 25px 25px;
+    border-radius: 10px;
+    background: #424242;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.titulo-cadastro{
+    width: 100%;
+    padding: 16px 16px;
+    margin: 25px 25px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #00796B;
+    color: #ECEFF1;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 5px 40px -12px #038878;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    
+}
+
+.label-input{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 15px;
+    background: #424242;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin: 20px;
+}
+
+.label-input2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 15px;
+    background: #424242;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.label-input > input::placeholder{
+    color: #819294;
+}
+
+.label-input > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background:#555353;
+    color:#ECEFF1;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.label-input > label{
+    color: #ECEFF1;
+    margin: 10px; 
+    font-weight: 800;
+}
+
+.senhas{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    background-color: #00796B;
+    color: #ECEFF1;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 5px 40px -12px #038878;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.formulario > button {
+    align-items: center;
+    justify-content: center;
+}
