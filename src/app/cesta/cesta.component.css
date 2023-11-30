@@ -57,7 +57,6 @@ form button {
 }
 
 .col {
-  /* width: 92.5%; */
   margin: 10px;
 }
 
@@ -143,7 +142,6 @@ table .row, th, td {
 }
 
 .valor-right-side {
-  /* margin-right: 2px; */
   text-align: right;
 }
 

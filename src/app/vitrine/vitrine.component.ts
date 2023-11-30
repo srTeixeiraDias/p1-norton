@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { ProdutosService } from '../service/produtos/produtos.service';
 import { Observable } from 'rxjs';
+
 import { Produto } from '../model/produto';
+import { ProdutosService } from '../service/produtos/produtos.service';
 
 @Component({
   selector: 'app-vitrine',

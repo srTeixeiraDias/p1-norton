@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
+
 import { Produto } from '../model/produto';
 import { ProdutosService } from '../service/produtos/produtos.service';
 

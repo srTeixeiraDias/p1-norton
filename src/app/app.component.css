@@ -1,10 +1,4 @@
 
-/* Styling top bar */
-
-header {
-  /* margin-bottom: 15px; */
-}
-
 header > nav {
   background-color: #00796B;
 }

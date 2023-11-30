@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import { Produto } from './produto.model';
 
 @Component({

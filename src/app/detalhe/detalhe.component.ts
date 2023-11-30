@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Produto } from '../model/produto';
-import { ProdutosService } from '../service/produtos/produtos.service';
+
 import { ProdutoDetalhe } from '../model/produto-detalhe';
+import { ProdutosService } from '../service/produtos/produtos.service';
 
 @Component({
   selector: 'app-detalhe',
