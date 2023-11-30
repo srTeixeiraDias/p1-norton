@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 
 import { ProdutoDetalhe } from '../model/produto-detalhe';
@@ -15,8 +16,9 @@ export class DetalheComponent {
 
   produto$: Observable<ProdutoDetalhe>;
 
-  constructor(private service: ProdutosService) {
-    this.produto$ = service.find(this.id)
+  constructor(private service: ProdutosService, private activatedRoute: ActivatedRoute) {
+    this.id = this.activatedRoute.snapshot.params['id'];
+    this.produto$ = service.find(this.id);
   }
 
 }

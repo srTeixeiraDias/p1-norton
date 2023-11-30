@@ -16,14 +16,7 @@ export class VitrineComponent {
   produtos$: Observable<Produto[]>
 
   constructor(private service: ProdutosService) {
-    if (this.filtro === "")
-      this.produtos$ = service.list()
-    else 
-      this.produtos$ = service.listBy(this.filtro)
-  }
-
-  listBy() {
-    this.produtos$ = this.service.listBy(this.filtro)
+    this.produtos$ = service.list(this.filtro)
   }
   
 }

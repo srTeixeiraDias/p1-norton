@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, first } from 'rxjs';
+import { first, Observable } from 'rxjs';
 import { Cesta } from 'src/app/model/cesta';
 
 @Injectable({

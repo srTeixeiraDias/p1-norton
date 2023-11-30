@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 
 import { Produto } from '../model/produto';
@@ -15,15 +16,16 @@ export class BuscaComponent {
 
   produtos$: Observable<Produto[]>
 
-  constructor(private service: ProdutosService) {
-    if (this.filtro === "")
-      this.produtos$ = service.list()
-    else 
-      this.produtos$ = service.listBy(this.filtro)
+  constructor(private service: ProdutosService, private router: Router) {
+    this.produtos$ = service.list(this.filtro)
   }
 
-  listBy() {
-    this.produtos$ = this.service.listBy(this.filtro)
+  list() {
+    this.produtos$ = this.service.list(this.filtro)
+  }
+
+  exibirProduto(produtoId: string) {
+    this.router.navigateByUrl(`detalhe/${produtoId}`);
   }
 
 }

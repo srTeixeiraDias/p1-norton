@@ -5,32 +5,42 @@
   <div class="formulario">
     <div class="label-input">
       <label for="nome"> Nome </label>
-      <input type="text" name="nome" placeholder="Digite seu nome...">
+      <input type="text" name="nome" [(ngModel)]="cliente.nome" placeholder="Digite seu nome...">
     </div>
     <div class="label-input">
-      <label for="usuario"> Email </label>
-      <input type="text" name="usuario" placeholder="Digite seu email">
+      <label for="email"> Email </label>
+      <input type="text" name="email" [(ngModel)]="cliente.email" placeholder="Digite seu email">
     </div>
     <div class="senhas">
       <div class="label-input">
-        <label for="usuario"> Senha </label>
-        <input type="password" name="usuario" placeholder="Digite sua senha">
+        <label for="senha"> Senha </label>
+        <input type="password" name="senha" [(ngModel)]="cliente.senha" placeholder="Digite sua senha">
       </div>
       <div class="label-input">
-        <label for="usuario"> Confirme a senha </label>
-        <input type="text" name="usuario" placeholder="Digite sua senha">
+        <label for="confirmarSenha"> Confirme a senha </label>
+        <input type="text" name="confirmarSenha" [(ngModel)]="cliente.confirmarSenha" placeholder="Digite sua senha">
       </div>
     </div>
     <div class="label-input">
-      <label for="usuario"> CPF </label>
-      <input type="text" name="cpf" placeholder="Digite seu cpf">
+      <label for="cpf"> CPF </label>
+      <input type="text" name="cpf" [(ngModel)]="cliente.cpf" placeholder="Digite seu cpf">
     </div>
     <div class="label-input">
-      <label for="usuario"> Telefone </label>
-      <input type="text" name="telefone" placeholder="Digite seu telefone">
+      <label for="telefone"> Telefone </label>
+      <input type="text" name="telefone" [(ngModel)]="cliente.telefone" placeholder="Digite seu telefone">
+    </div>
+    <div class="senhas">
+      <div class="label-input">
+          <label for="cep"> Cep </label>
+          <input type="text" name="cep" [(ngModel)]="cliente.cep" placeholder="Digite seu cep">
+      </div>
+      <div class="label-input">
+          <label for="numeroCasa"> Numero casa </label>
+          <input type="text" name="numeroCasa" [(ngModel)]="cliente.numero" placeholder="Digite o numero da casa">
+      </div>
     </div>
     <div class="label-input2">
-      <button class="btn-login"> cadastrar-se </button>
+      <button class="btn-login" (click)="cadastrarCliente()"> cadastrar-se </button>
     </div> 
   </div>
 </div>

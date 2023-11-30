@@ -11,16 +11,15 @@ import { ProdutoComponent } from './produto/produto.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
 
 const routes: Routes = [
-    { path: '', pathMatch: 'full', redirectTo: 'login' },
+  { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: "vitrine", component: VitrineComponent },
   { path: "cesta", component: CestaComponent },
   { path: "esqueci-senha", component: EsqueciSenhaComponent },
   { path: "produto", component: ProdutoComponent },
   { path: "busca", component: BuscaComponent },
-  { path: "detalhe", component: DetalheComponent },
+  { path: "detalhe/:id", component: DetalheComponent },
   { path: "login", component: LoginComponent},
   { path: "cadastro", component: CadastroComponent}
-  
 ];
 
 @NgModule({

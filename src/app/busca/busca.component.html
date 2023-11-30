@@ -8,7 +8,7 @@
     <div class="col-lg-6 col-md-8 mx-auto">
       <form class="form-inline my-2 my-lg-0" action="" method="POST">
         <input [(ngModel)]="filtro" class="form-control mr-sm-2 search-bar" type="search" placeholder="Pesquisar Produto" aria-label="Pesquisar" name="pesquisa">
-        <button (click)="listBy()" class="btn btn-sm btn-outline-primary" type="submit">Pesquisar</button>
+        <button (click)="list()" class="btn btn-sm btn-outline-primary" type="submit">Pesquisar</button>
       </form>
     </div>
     <div class="col-lg-3 col-md-8 mx-auto">
@@ -52,7 +52,7 @@
             </div>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group ver-produto">
-                <button type="submit" class="btn btn-sm btn-outline-primary ver-produto-btn"><a class="link-detalhe" href="/detalhe">Exibir Produto</a></button>
+                <button type="submit" (click)="exibirProduto(produto.id)" class="btn btn-sm btn-outline-primary ver-produto-btn"><a class="link-detalhe" href="/detalhe">Exibir Produto</a></button>
               </div>
             </div>
           </div>

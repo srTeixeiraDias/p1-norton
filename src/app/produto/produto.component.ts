@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 
-import { Produto } from './produto.model';
+import { Produto } from '../model/produto';
+import { ProdutosService } from '../service/produtos/produtos.service';
+
 
 @Component({
   selector: 'app-produto',
@@ -9,17 +13,28 @@ import { Produto } from './produto.model';
 })
 export class ProdutoComponent {
   mensagem : string = "";
-  prod: Produto = new Produto();
-  lista: Produto[] = [];
+  produtos$: Observable<Produto[]>;
+
+  produto: Produto = {
+    id: "",
+    nome: "",
+    descricao: "",
+    descricaoLonga: "",
+    preco: 0,
+    urlImagem: ""
+  };
+
+  constructor(private service: ProdutosService, private router: Router) {
+    this.produtos$ = this.service.list("");
+  }
 
   public cadastrar(){
-    this.mensagem = " Produto cadastrado com sucesso!";
-    let produtoaux : Produto = new Produto();
-    produtoaux.codigo = this.prod.codigo;
-    produtoaux.titulo = this.prod.titulo;
-    produtoaux.imagem  = this.prod.imagem;
-    produtoaux.preco = this.prod.preco;
-    this.lista.push(produtoaux);
+    this.service.create(this.produto)
+    this.produtos$ = this.service.list("");
+  }
+
+  exibirProduto(produtoId: string) {
+    this.router.navigateByUrl(`/detalhe/${produtoId}`);
   }
 
 }
