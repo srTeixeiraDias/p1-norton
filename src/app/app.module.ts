@@ -30,7 +30,7 @@ import { VitrineComponent } from './vitrine/vitrine.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

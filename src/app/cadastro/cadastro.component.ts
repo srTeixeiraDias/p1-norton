@@ -11,6 +11,7 @@ import { ClientesService } from '../service/clientes/clientes.service';
 export class CadastroComponent {
 
   public cliente: Cliente = {
+    id: '',
     nome: '',
     email: '',
     senha: '',
@@ -24,6 +25,8 @@ export class CadastroComponent {
   constructor(private service: ClientesService) { }
 
   cadastrarCliente() {
+    localStorage.setItem("nomeCliente", this.cliente.nome);
+    localStorage.setItem("emailCliente", this.cliente.email);
     this.service.create(this.cliente);
   }
 
