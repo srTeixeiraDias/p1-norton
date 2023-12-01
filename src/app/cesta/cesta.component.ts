@@ -17,4 +17,14 @@ export class CestaComponent {
     this.cesta$ = service.find()
   }
 
+
+  esvaziar() {
+    this.service.removeAllProducts();
+    alert('cesta esvaziada')
+  }
+
+  finalizar() {
+    alert('Peido finalizado, aguarde o código pix no seu email!')
+  }
+
 }

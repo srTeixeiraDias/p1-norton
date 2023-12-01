@@ -44,7 +44,7 @@
       <p class="description">{{ produto.descricao }}</p>
       <p class="long-description">{{ produto.descricaoLonga }}</p>
       <p class="price">Preço: {{ produto.preco | currency:'BRL' }}</p>
-      <button class="buy-button">Comprar</button>
+      <button class="buy-button" (click)="adicionar()">Comprar</button>
     </div>
   </div>
 </div>
