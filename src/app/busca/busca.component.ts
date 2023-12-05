@@ -25,7 +25,7 @@ export class BuscaComponent {
   }
 
   exibirProduto(produtoId: string) {
-    this.router.navigateByUrl(`detalhe/${produtoId}`);
+    this.router.navigateByUrl(`/detalhe/${produtoId}`);
   }
 
 }
